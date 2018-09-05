@@ -6,7 +6,7 @@ head {
 }
 
 .center {
-    margin: auto;
+    margin: 2.5% auto 0 auto;
     width: 60%;
     border: 3px solid #4aaaa5;
     top: 50px;
@@ -25,9 +25,7 @@ footer {
     bottom: 0;
     left: 0;
     padding: 1rem;
-    border-top: 20px #4aaaa5;
-}
-
+    border-top: 10px solid #4aaaa5;
 }
 
 section {
@@ -44,7 +42,7 @@ h1 {
   padding: 10px,50px,10px,10px;
   border: 100px #4aaaa5;
   text-align: center;
-  float: center;
+  float: left;
 }
 p {
   color: #777777;
@@ -60,15 +58,9 @@ header {
   clear: both;
 }
 
-}
-
 body {
-    background-color: red;
     font-family: Arial, Helvetica, sans-serif;
-    border-bottom: 20px solid red;
-    width:50px;
     margin: auto;
-    border: 3px solid #73AD21;
     background-image: url("https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwj9lami4aLdAhUDnKwKHT8-DGMQjRx6BAgBEAU&url=https%3A%2F%2Fwallpapercave.com%2Fflower-image-wallpaper&psig=AOvVaw04E5HyoQZq0L2n4ruCA2Tx&ust=1536198970734988");
     background-repeat: no-repeat, repeat;
     background-color: #cccccc;
@@ -76,16 +68,13 @@ body {
   }
   
   .topnav {
-    padding-left: 400px;
-    width: 500px;
-    height 100px;
+    width: 100%;
+    height: 100px;
     border: 1px;
     overflow: hidden;
     background-color: #ffffff;
     border-color: #cccccc;
     margin: auto;
-    width: 60%;
-    border: 3px solid #4aaaa5;
     top: 50px;
     right: .25;
     bottom: 150px;
@@ -93,7 +82,7 @@ body {
   }
   
   .topnav a {
-    float: left;
+    float: right;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -109,6 +98,7 @@ body {
   .topnav a.active {
     background-color: #4aaaa5;
     color: white;
+    float: left;
   }
 
 input[type=text], select, textarea {
